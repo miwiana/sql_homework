@@ -4,7 +4,7 @@ from sql_homework.model import Base, Expenses, Categories
 import datetime
 
 if __name__ == '__main__':
-    engine = create_engine('sqlite:///../bills.db', echo=True)
+    engine = create_engine('sqlite:///bills.db', echo=True)
     Base.metadata.create_all(engine)
 
     Session = sessionmaker(bind=engine)
