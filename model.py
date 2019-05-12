@@ -1,6 +1,6 @@
 """Mapping and defining schema using SQLAlchemy ORM"""
 
-from sqlalchemy import Integer, String, Float, Column, Table, ForeignKey, Date
+from sqlalchemy import Integer, String, Float, Column, ForeignKey, Date
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 
